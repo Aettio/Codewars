@@ -1,17 +1,18 @@
-# (6 KYU) Bouncing Ball
+# (6KYU) Find the unique number
 
-A child is playing with a ball on the nth floor of a tall building. The height of this floor, h, is known.
+There is an array with some numbers. All numbers are equal except for one. Try to find it!
 
-He drops the ball out of the window. The ball bounces (for example), to two-thirds of its height (a bounce of 0.66).
+find_uniq([ 1, 1, 1, 2, 1, 1 ]) == 2
+find_uniq([ 0, 0, 0.55, 0, 0 ]) == 0.55
 
-His mother looks out of a window 1.5 meters from the ground.
+It’s guaranteed that array contains at least 3 numbers.
 
-How many times will the mother see the ball pass in front of her window (including when it's falling and bouncing? Three conditions must be met for a valid experiment:
+The tests contain some very huge arrays, so think about performance.
 
-Float parameter "h" in meters must be greater than 0
-Float parameter "bounce" must be greater than 0 and less than 1
-Float parameter "window" must be less than h.
+This is the first kata in series:
 
-If all three conditions above are fulfilled, return a positive integer, otherwise return -1. Note:
+    Find the unique number (this kata)
+    Find the unique string
+    Find The Unique
 
-The ball can only be seen if the height of the rebounding ball is strictly greater than the window parameter.
+
