@@ -1,0 +1,2 @@
+# Codewars_6KYU_Find_the_unique_number
+Solution
