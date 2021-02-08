@@ -1,4 +1,4 @@
-(6 KYU) Bouncing_Ball
+# (6 KYU) Bouncing Ball
 
 A child is playing with a ball on the nth floor of a tall building. The height of this floor, h, is known.
 
